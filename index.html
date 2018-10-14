@@ -2,18 +2,251 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+	<title>Lolo's</title>
+	
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<link rel="stylesheet" href="css/mi-slider.css">
+	
 
-
-
-	<link rel="stylesheet" href="css/style.css">
-	<title>Dev Master</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Introduccion a GIT & Github</h1>
-	</header>
-	<section>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium sunt sed, ut aliquam tenetur qui dolor optio sapiente earum officia, ducimus itaque tempora architecto! Consequatur qui non culpa, placeat aliquam.
+		<div class="scrolltop">
+			<i class="fas fa-long-arrow-alt-up"></i> 
+			<span>To top</span>
+		</div>
+
+		<nav class="navbar navbar-expand-md navbar-light">
+		  <a class="navbar-brand" href="index.html"><img class="icon" src="img/iconlolos.jpeg"></a>
+			<div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarNav">
+			    <ul class="navbar-nav align-items-center">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#products">Nuestros Productos</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#about">Nosotros</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#contact">Contacto</a>
+			      </li>
+			      <li class="nav-item mr-3">
+			        <a class="nav-link" href="#find">Ubicanos</a>
+			      </li>
+			    </ul>
+		  	</div>
+		</nav>
+	<!--CAROUSEL-->
+
+	
+			<div class="slider-wrapper theme-mi-slider">
+				<div id="slider" class="nivoSlider">     
+				    <img src="img/1.jpg" alt="" title="#htmlcaption1" />    
+				    <img src="img/2.jpg" alt="" title="#htmlcaption2" />    
+				    <img src="img/3.jpg" alt="" title="#htmlcaption3" />
+				    <img src="img/4.jpg" alt="" title="#htmlcaption4" />    
+				    <img src="img/5.jpg" alt="" title="#htmlcaption5" />    
+				</div> 
+
+				<div id="htmlcaption1" class="nivo-html-caption"></div>
+				<div id="htmlcaption2" class="nivo-html-caption"></div>
+				<div id="htmlcaption3" class="nivo-html-caption"></div>
+				<div id="htmlcaption4" class="nivo-html-caption"></div>
+				<div id="htmlcaption5" class="nivo-html-caption"></div>
+			</div>		
+
+	<!--TERMINA CAROUSEL-->	
+	
+	<!--PRODUCTOS-->
+	<section class="facc" id="products">
+		<div class="container text-center">
+			<header>
+				<div  class="row">
+					<h1 class="etimadera">Nuestros Productos</h1>
+				</div>
+			</header>
+			
+			<div class="row" >
+				<div class="item-work col-lg-4 col-md-6 ">
+					<div class="img">
+						<img src="img/hamburguesa-a-lo-pobre.png" width="200" height="200" alt="">
+					</div>
+					<div>
+						<h2 class="enunciado">A Lo Pobre</h2>
+					</div>
+				</div>
+
+				<div class="item-work col-lg-4 col-md-6 ">
+					<div class="img">
+						<img src="img/hamburguesa-clasica.png" width="200" height="200" alt="">
+					</div>
+					<div>
+						<h2 class="enunciado">Lolo's Clásica</h2>
+					</div>
+				</div>
+
+				<div class="item-work col-lg-4 col-md-6 ">
+					<div class="img">
+						<img src="img/hamburguesa-cheese.png" width="200" height="200" alt="">
+					</div>
+					<div>
+						<h2 class="enunciado">Cheese</h2>
+					</div>
+				</div>
+
+				<div class="item-work col-lg-4 col-md-6 ">
+					<div class="img">
+						<img src="img/hamburguesa-doble-queso.png" width="200" height="200" alt="">
+					</div>
+					<div>
+						<h2 class="enunciado">Doble Queso</h2>
+					</div>
+				</div>
+
+				<div class="item-work col-lg-4 col-md-6 ">
+					<div class="img">
+						<img src="img/hamburguesa-extrema.png" width="200" height="200" alt="">
+					</div>
+					<div>
+						<h2 class="enunciado">Extrema</h2>
+					</div>
+				</div>
+
+				<div class="item-work col-lg-4 col-md-6 ">
+					<div class="img">
+						<img src="img/hamburguesa-francesa.png" width="200" height="200" alt="">
+					</div>
+					<div>
+						<h2 class="enunciado">Francesa</h2>
+					</div>
+				</div>
+			</div>
+			
+				<div class="row">
+					 <ul class="align-items-center">
+					    <li class="nav-item">
+					    	<a class="nav-link seemore" href="burguer.html">Ver Más</a>
+					    </li>
+					</ul>
+				</div>
+
+		</div>
 	</section>
+	<!--termina productos-->
+
+	<!--MAPA-->
+	<section id="find">
+		<div class="container">
+			<div class="col-12">
+				<div class="mapa">
+						<h2>UBICANOS EN:</h2>
+				</div>
+				<div id="map"></div>
+			</div>
+		</div>
+		
+	</section>
+	<!--termina el mapa-->
+
+	<!--HISTORIA-->
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="section-title text-left">Nuestra Historia</h2>
+					<p><img class="group" src="img/grupo.jpg">Lolo's fue fundado por un joven de 17 años, quien recién había terminado el colegio en la ciudad de Huacho. Aquel joven comenzó vendiendo como ambulantes artículos de primera necesidad pero esa labor no era lo que quería.
+					Sin embargo un día caminando por la avenida 28 de Julio vio una oportunidad de comprar un carrito sandwichero que costaba en ese entonces U$100.00 dólares, el cual vio la oportunidad de comprar dicho carrito el cual lo arreglo y lo pinto y comenzó a crear la carta con hamburguesas y diversos sándwiches.
+					La inauguración se dio en un espacio que estaba en la plaza de armas de Huaura para el día de la virgen del Carmen el 16 de julio de 1989, donde se vendieron 100 hamburguesas y fue un éxito.
+					Viendo que la empresa comenzó a funcionar en el mes de setiembre del año 1989, lolos inaugura su local en Huaura, y lleva el carrito sandwichero a Huacho lo instala en la 	avenida 28 de Julio de Huacho frente al Banco de Crédito.
+					El éxito fue tan rápido que en menos de cuatro meses de trabajo se alquiló un local en la avenida Grau con Echenique donde hoy funciona un tragamonedas, Lolos ponía su primer local en Huacho, que fue un éxito total, nuestra empresa siempre se ha identificado con el público joven donde se escucha buena música, y sobre todo la gente disfruta su hamburguesa.</p>
+					
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!--termina Historia-->
+	
+	<!--Contacto-->
+	<!--PIE DE PAGINA-->		
+
+	<footer id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-5">
+					<h2>Siguenos en : </h2>
+					<div class="icons">
+						<a href=""><i class="fab fa-facebook-square"></i></a>
+						<a href=""><i class="fab fa-twitter-square"></i></a>
+						<a href=""><i class="far fa-envelope"></i></a>
+						<a href=""><i class="fab fa-instagram"></i></a>
+						<a href=""><i class="fab fa-tripadvisor"></i></a>	
+					</div>	
+					<br>
+					<br>
+					<h3>consulte a : </h3>	
+					<h4>info@lolos.pe</h4>
+					<h2>Aceptamos : </h2>
+					<div class="icons">
+						<a href=""><i class="fab fa-cc-visa"></i></a>
+						<a href=""><i class="fab fa-cc-mastercard"></i></a>
+						<a href=""><i class="fab fa-cc-amex"></i></a>
+						
+					</div>	
+				</div>
+				
+				<div class="col-1" align="center">
+					<hr class="line"/>
+				</div>
+				
+				<div class="col-5 auspicios">
+					<h2>Nuestras Marcas : </h2>
+					<img src="img/logochicha.jpg" alt="CremoChicha">
+					<img src="img/loloss.jpg" alt="Lolo's">
+					<h3>Atendemos de: </h3>	
+					<h4>Lunes a Domingo |5:00pm - 2:00am|</h4>
+				</div>
+				
+				<div class="derechos">
+					<p><span class="nameb">INKABURGUER</span><span class="aaa">E.I.R.L © 2018</span><span class="resv"> Av. Echenique #140 - Huacho - Perú. Todos los derechos reservados</span></p>
+				</div>
+			</div>
+		</div>
+			
+	</footer>
+
+	<!--termina Contacto-->
+
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+
+	<script src="js/home.js"></script>
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5b1Ia8RlBoYi2AYxMN90g99kmPVA4GR0&callback=initMap"
+    async defer></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript"> 
+		$(document).ready(function() {
+		    $('#slider').nivoSlider(); 
+		}); 
+	</script>
+
+
+	<script>
+		$('.boton-responsive').click( function(){
+			$('.boton-responsive').toggleClass('activo');
+		});
+	</script>
 </body>
 </html>

@@ -1,1 +1,459 @@
-style.css
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: 'Open Sans',sans-serif;
+}
+
+/*BARRA MENU*/
+.navbar{
+	padding: .01rem;
+	box-shadow: 0 3px 5px rgba(0,0,0,.2);
+	background: #fff;
+}
+.navbar-brand{
+	font-weight: 800;
+	font-size: 1.7rem;
+	color: #222;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	font-size: 1.1rem;
+	color: #333;
+	padding: 1.5rem;
+
+}
+.icon{
+	width: 100px;
+	height: 100px;
+	left: 90px;
+	position: relative;
+}
+/*FIN DE BARRA MENU*/
+
+/*CAROUSEL*/
+
+/*FIN DE CAROUSEL*/
+
+/* PRODUCTOS */
+
+.etimadera{ 
+	background: rgb(239,244,42);
+	background: radial-gradient(circle, rgba(239,244,42,0.7847338764607406) 0%, rgba(247,130,51,1) 100%); 
+	width: 400px;
+	height: 60px;
+	transform: translateX(370px);
+	padding: 10px;
+
+}
+
+.facc h1{
+	color: #ba6612;
+	font-size: 2.2rem;
+	margin-bottom: .5rem;
+	font-weight: 800;
+	line-height: 1.1;
+	margin-top: 0;
+	box-sizing: inherit;
+	display: inline-block;
+}
+
+.seemore{
+	background: rgb(239,244,42);
+	background: radial-gradient(circle, rgba(239,244,42,0.7847338764607406) 0%, rgba(247,130,51,1) 100%); 
+	width: 200px;
+	height: 60px;
+	transform: translateX(470px);
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.seemore a{
+	color: #ba6612;
+	font-size: 1.1rem;
+	padding: .5rem;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-top: 0;
+	box-sizing: inherit;
+	display: inline-block;
+}
+.seemore {
+	padding: .01rem;
+	box-shadow: 0 3px 5px rgba(0,0,0,.2);
+	background: #fff;
+	font-size: 2.0rem;
+	color: #ba6612;
+	padding: 15px 10px;
+	margin-top: 20px;
+	background: rgb(239,244,42);
+	background: radial-gradient(circle, rgba(239,244,42,0.7847338764607406) 0%, rgba(247,130,51,1) 100%);
+}
+
+
+.facc .item-work{
+	padding: 50px 30px;
+	transition: all 0.3s;
+	cursor: default;
+	flex: 0 0 50%;
+	width: 360px;
+	position: relative;
+	width: 100%;
+	height: 327px;
+	box-sizing: inherit;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', Sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5;
+	
+}
+.facc .img{
+	font-size: 3.7rem;
+	margin-bottom: 20px;
+	box-sizing: inherit;
+	display: inline-block;
+	text-align: center;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+.facc .enunciado{
+	color: #ba6612;
+	font-size: 1.9rem;
+	margin-bottom: 5.5rem;
+	font-family: inherit;
+	font-weight: 800;
+	line-height: 1.1;
+	transform: translateY(-50px);
+	box-sizing: inherit;
+	display: block;
+	text-align: center;
+}
+
+.facc div.item-work:hover{
+
+	 box-shadow: -5px 5px 20px rgba(0,0,0,.2);
+
+}
+
+/*FIN DE PRODUCTOS*/
+
+/*MAP*/
+#map {
+        height: 600px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+.mapa h2{
+	font-size: 2.0rem;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: black;
+}
+
+/*END MAP*/
+
+
+
+/*COMIENZA HISTORIA*/
+.about{
+	padding:30px 0px 0px 0px;
+}
+.about h2{
+	font-size: 2.5rem;
+	font-weight: 800;
+	margin-bottom: 40px;
+	color: black;
+}
+.about p{
+	font-size: 1.0rem;
+	font-weight: 300;
+    line-height: 1.8rem;
+    margin-bottom: 50px;
+  	text-align: justify;
+}
+.group{
+	float: right;
+	position: relative;
+	width: 300px;
+	height: 250px;
+	padding: 10px;
+}
+/*TERMINA HISTORIA*/
+
+/* FOOTER */
+
+footer{
+	background: black;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+
+}
+footer h2,h3{
+	font-size: 1.5rem;
+	font-weight: 800;
+	font-weight: bold;
+	margin-bottom: 40px;
+	color: #ffffff;
+}
+
+footer h4{
+	font-size: 1.0rem;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+
+}
+.icons a{
+	color: #ffffff;
+}
+.icons i{
+
+	display: inline-block;
+	font-size: 48px;
+	margin-left: 40px;
+}
+hr.line{
+	width: 1px;
+	height:340px;
+	background: #ffffff;
+	text-align: center;
+}
+.derechos{
+	margin-top: 0px;
+}
+
+.auspicios img{
+	margin-top: 5px;
+	margin-bottom: 30px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 80px;
+}
+.nameb{
+	font-size: 30px;
+	font-weight: 800;
+	color: #fff; 
+	margin-left: 150px;
+
+}
+.resv{
+	color: #fff;
+	margin-left: 80px;
+}
+.aaa{
+	color: #f2f2f2;
+	margin-left: 10px;
+}
+/* TERMINA EL FOOTER */ 
+
+/*SCROLLTOP*/
+
+.scrolltop{
+	width: 80px;
+    height: 40px;
+    position: fixed;
+    right: -55px;
+    bottom: 50%;
+    background-color: #ba6612;
+    background: rgb(239,244,42);
+	background: radial-gradient(circle, rgba(239,244,42,0.7847338764607406) 0%, rgba(247,130,51,1) 100%);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+    transition: all .3s;
+}
+.scrolltop:hover{
+	right: 0;
+}
+
+.scrolltop span{
+	margin-left: 5px;
+}
+
+.scrolltop.activo{
+	opacity: 1;
+}
+
+/*FIN SCROLLTOP*/
+
+/*BURGUERBEBDAS*/
+.burbe{
+	background: rgb(239,244,42);
+	background: radial-gradient(circle, rgba(239,244,42,0.7847338764607406) 0%, rgba(247,130,51,1) 100%); 
+	width: 300px;
+	height: 100px;
+	transform: translateX(110px);
+	font-weight: 800;
+	padding: 20px;
+	margin-bottom: 30px;
+	padding: .01rem;
+	box-shadow: 0 3px 5px rgba(0,0,0,.2);
+	font-size: 1.9rem;
+	color: #ba6612;
+	padding: 15px 10px;
+	margin-top: 20px;
+}
+.burbe a{
+	color: #ba6612;
+	font-size: 1.9rem;
+	padding: .5rem;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-top: 0;
+	box-sizing: inherit;
+	display: inline-block;
+}
+
+/**/
+
+
+
+/*DETALLES CREMOCHICHA*/
+.detail{
+	background-image: url(../img/fondo.jpg);
+	width: 100%;
+	height: 450px;
+}
+.detail h2{
+	float: right;
+	font-size: 2.5rem;
+	font-weight: 800;
+	margin-bottom: 40px;
+	color: black;
+	margin-top: 50px;
+	margin-right: 200px;
+}
+.detail p{
+	margin-top: 50px;
+	float: right;
+	font-size: 1.9rem;
+	font-weight: 300;
+    line-height: 1.8rem;
+    margin-bottom: 50px;
+  	position: relative;
+  	text-align: justify;
+
+}
+.detail img{
+	float: left;
+	position: relative;
+	width: 400px;
+	height: 450px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.prev a{
+	color: black;
+	font-size: 1.9rem;
+	padding: .5rem;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-top: 0;
+	box-sizing: inherit;
+	display: inline-block;	
+}
+
+.det .alo{
+	margin-top: 50px;
+	float: right;
+	font-size: 1.5rem;
+	font-weight: 300;
+    line-height: 1.8rem;
+    margin-bottom: 50px;
+  	position: relative;
+  	text-align: justify;
+}
+
+/*FIN DETALLES*/
+
+
+
+/*Laptops */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	
+	.image-banner{
+		width: 100%;
+	}
+}
+
+
+/*Media query para tablets*/
+@media screen and (min-width: 769px) and (max-width: 992px){
+	
+}
+
+
+/*Media Query para mobiles*/
+@media screen and (max-width: 768px){
+
+	.image-banner{
+		width: 100%;
+	}
+	.banner .btn-landy-outline {
+	    margin-left: 0;
+	    margin-top: 15px;
+	}
+}
+
+
